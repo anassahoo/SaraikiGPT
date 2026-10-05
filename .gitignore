@@ -1,0 +1,25 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Dataset files - keep datasets local
+data/raw/*
+data/extracted/*
+
+# Scraper / temporary files
+progress.json
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
